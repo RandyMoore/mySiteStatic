@@ -1,7 +1,7 @@
 ---
 title: "Full Stack Walkthrough"
 date: 2017-10-01T00:00:00+00:00
-draft: true
+draft: false
 ---
 
 <h2>Summary</h2>
@@ -31,7 +31,7 @@ For the back end, anything goes. The client's web browser will contact the serve
 
 HTTP is well defined in a specification and this has allowed others to write reusable software to take care of the HTTP details. Frameworks are language specific - they provide a bare-bones system in a particular language and allow you to add your own code to add custom behavior. You may already be familiar with the concept of a library. A framework is similar in that it is reusable code but is different because it drives control instead of responding to commands as a library would. In this case the framework code will be the first to handle the incoming request from the viewer's web browser and then it will call your code to form a reply. Django was chosen as the web framework for this project. Here's a visualization of framework vs library:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lC0KapQU0aM" frameborder="0" allowfullscreen></iframe>
+[![Framework vs Library](https://img.youtube.com/vi/lC0KapQU0aM/0.jpg)](https://www.youtube.com/watch?v=lC0KapQU0aM "Framwork vs Library")
 
 <h2>Libraries</h2>
 
