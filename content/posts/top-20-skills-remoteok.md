@@ -14,7 +14,7 @@ As a professional developer you must always be learning. It can be frustrating t
 The y-axis has a 10% marking. The bar for each skill is scaled according to what % of the Total # NEs count it represents.
 
 # How? (Summary)
-1. Collect the raw data, in this case all the job postings on remoteok.io. Data was collected every couple weeks for a few months by my good friend Pi who spent a few mintues looking at every post before copying the text.
+1. Collect the raw data, in this case all the job postings on remoteok.io. Data was collected every couple weeks for a few months by my good friend Pi who spent a few minutes looking at every post before copying the text.
 2. Use Natural Language Processing (NLP) to extract Named Entities from each post.
 3. Filter out all Named Entities that are not a skill.
 4. Take the top 20 skills by frequency for each day across all posts.
@@ -96,10 +96,10 @@ with open(f'top_{TOP_N}_skills.csv', 'w') as csv_out_file:
 
 ```
 
-This script will output a file named "top_20_skills.csv" with columns [Day, Posts, Skill, Count] which are the day (prefix of an input file), how many posts there were for that day, the skill, and the frequency of that skill for all the posts in the day.
+This script will output a file named "top_20_skills.csv" with columns [Day, Posts, Skill, Count] which are the date, how many posts there were for that day, the skill, and the frequency of that skill for all the posts in the day.
 
 ## Use Blender to Visualize Data
-[Blender](https://www.blender.org/) is an enormously powerful open source 3D rendering tool. It has many features including the ability to script actions that would otherwise take an infeasible amount of time to do manually. This script was developed and run on the latest Blender version 2.83 to produce the video. Just start a new Blender session, go to the scripting workspace, create a new script, copy and paste the script text, and run.
+[Blender](https://www.blender.org/) is an enormously powerful open source 3D rendering tool. It has many features including the ability to script scene generation actions that would otherwise take an infeasible amount of time to do manually. This script was developed and run on the latest Blender version 2.83 to produce the video.
 ```python
 import bpy
 from collections import defaultdict
@@ -262,4 +262,4 @@ bpy.context.scene.render.filepath = "./Animation/"
 
 ```
 
-Once the script has run the animation will be complete with camera, lighting, animation and ready to render. Blender also has video editing capability which I used to include a snippet of music I wrote a long time ago. The composition is a waltz, in 3/4 time, which corresponds to the 3 "beats" of the animation (puase for 2 seconds, animate transition to next day for 1 second). It's important to add a bit of sonic bling to spice up the experience. Note I only spent a day learning and developing the Blender script above. Even though it appears 2D it is rendered in 3D space and the full power of Blender is available in the scripting interface. This video is a simple proof of concept, far more interesting visualizations are possible.
+Once the script has run the animation will be complete with camera, lighting, animation and ready to render. Blender also has video editing capability which I used to include a snippet of music I wrote a long time ago. The composition is a waltz, in 3/4 time, which corresponds to the 3 "beats" of the animation (pause for 2 seconds, animate transition to next day for 1 second). It's important to add a bit of sonic bling to spice up the experience. I only spent a day learning and developing the Blender script above. Even though it appears as 2D it is rendered in 3D space and the full power of Blender is available in the scripting interface. This video is a simple proof of concept; far more interesting visualizations are possible.
