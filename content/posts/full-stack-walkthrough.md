@@ -19,7 +19,7 @@ Before starting out on any project it is important to clearly define what the go
 <h2>Architecture</h2>
 The requirements drive the architecture. The user roles consist of the content creator and the content viewer. The content is static and not sensitive which simplifies several aspects of the architecture. We don't need to be concerned with growing storage demands or security since there is nothing sensitive to protect. Another requirement is deployment flexibility compatible with the major cloud service providers for low cost high performance hosting. Someone wishing to learn the technology should also be able to easily deploy the site locally so they can experiment with it. A two tier architecture (web server and database layers) encapsulated in a deployable container fits the bill for this use case.
 
-![Full Stack](/images/FullStackArch.jpg)
+![Full Stack](/mySiteStatic/images/FullStackArch.jpg)
 
 <h2>Languages</h2>
 

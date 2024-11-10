@@ -4,7 +4,7 @@ date: 2019-09-08T00:00:00+00:00
 draft: false
 ---
 
-![Concept Map](/images/ConceptMap.png)
+![Concept Map](/mySiteStatic/images/ConceptMap.png)
 
 # How To Create A Concept Map
 Begin with brainstorming the list of nouns which may be related to your subject. Don't worry about or put any effort into getting a complete list. After the nouns are down arrange them (roughly) in a tree structure with the subject topic at the root and the most concrete detailed nouns at the leaves. Add directional relationships between the nouns to form phrases in the form of [Noun A]-(relation description)->[Noun B]. Add nouns with labeled relationships when you discover they are missing. Generally the map grows from the edges but sometimes missing abstractions will cause internal additions.

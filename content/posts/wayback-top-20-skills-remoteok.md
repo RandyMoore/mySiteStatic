@@ -40,7 +40,7 @@ Using the WayBack machine seemed like a great idea. Plenty of data was available
 
 Fortunately the Wayback Machine website shows you the distribution of the data up front:
 
-![Job Posting Distribution](/images/RemoteioDistribution.png)
+![Job Posting Distribution](/mySiteStatic/images/RemoteioDistribution.png)
 
 ## Use LTS Tool Versions
 The [Blender script](https://github.com/RandyMoore/Jobs/blob/master/blender.py) does not work in the most recent version of Blender (>=2.9x). Fortunately an LTS version of Blender was used and so it was easy to download the latest LTS version and get up and running quickly again.
