@@ -9,7 +9,7 @@ draft: false
 Django models offers an ORM API that abstracts the database layer.  There are many options provided to take advantage of common database features.  But certain combinations of these options may catch you by surprise; going so far as unintentional data deletion.
 
 As an example, consider the following models:
-![Order Schema](/mySiteStatic/images/DjangoDeletionOrderExample.png)
+![Order Schema](/images/DjangoDeletionOrderExample.png)
 
 Presume the developers that created your database schema did not have lunch often with the developers who created the software using the database. The software was written to create the instances from the bottom up. First `OrderLine`s, then `Order`s from `OrderLine`s, then `OrderReport`s from `Order`s.  This has a robustness advantage; as soon as an entity is defined it is saved to the database. The software may do something like this:
 

@@ -31,7 +31,7 @@ The above exploration process allows the user to find a small number of audit do
 Landing Page
 -------------------
 
-![Named Entity Landing](/mySiteStatic/images/NE_landing_s_e_s.png)
+![Named Entity Landing](/images/NE_landing_s_e_s.png)
 
 Click the "Named Entity Exploration" Button...
 
@@ -39,7 +39,7 @@ Start of Named Entity Exploration
 ----------------------------------------------
 
 
-![All Documents](/mySiteStatic/images/NE_start_s_e.png)
+![All Documents](/images/NE_start_s_e.png)
 
 Click the "Veterans" button...
 
@@ -47,7 +47,7 @@ Documents containing "Veterans"
 -----------------------------------------------
 
 
-![Documents with "Veterans"](/mySiteStatic/images/NE_veterans_only_e_s.png)
+![Documents with "Veterans"](/images/NE_veterans_only_e_s.png)
 
 Click the "VISN" button...
 
@@ -55,7 +55,7 @@ Narrow scope for documents also containing "VISN"
 ------------------------------------------------------------------------
 
 
-![Documents also with "VISN"](/mySiteStatic/images/NE_veterans_VISN_e_s.png)
+![Documents also with "VISN"](/images/NE_veterans_VISN_e_s.png)
 
 Final Result
 ----------------
@@ -65,7 +65,7 @@ Including:
  *  OSC: Acronym for the [U.S. Office of Special Council](https://osc.gov/Pages/about.aspx), who investigate whistle blower complaints.
 
 
-<img src="/static/mySiteStatic/images/NE_veterans_end_e.png" width=100%/>
+<img src="/images/NE_veterans_end_e.png" width=100%/>
 
 The result is a consistent set of Audit Documents investigating the performance of Medical Centers providing care for veterans across various cities.
 

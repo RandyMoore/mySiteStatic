@@ -7,7 +7,7 @@ Here's a metaphor that may be useful to understand why miscommunication happens 
 Words are thin labels, reflecting reality. 
 They are colored and reflect reality differently based on perspective.
 
-![Words and Perspectives](/mySiteStatic/images/ConfettiEyes.png)
+![Words and Perspectives](/images/ConfettiEyes.png)
 
 # Boo! That's not helpful!
 It is easy to underestimate the extent to which this is true. 

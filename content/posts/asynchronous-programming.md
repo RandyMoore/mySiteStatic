@@ -37,7 +37,7 @@ That interview question about process vs thread is checking the relationship bet
 
 In a nutshell:  The operating system creates and manages processes, each having it's own address space.  The operating system may also create additional threads within a process (this is generally done using the language of your choice interfacing with the OS).  Threads share the address space of the process, allocating off the same heap and also able to share references to arbitrary memory in the address space.  Some languages additionally support [coroutines](https://en.wikipedia.org/wiki/Coroutine) which have their own stack but which execute within a thread.  This leads to 3 choices each of where to allocate execution and data: Processes, Threads, or Coroutines.
 
-![Process vs Thread](/mySiteStatic/images/BuildingBlocks_ProcessThread.png)
+![Process vs Thread](/images/BuildingBlocks_ProcessThread.png)
 
 Of course this diagram is a simplification only showing a small subset of possibilities for the instances of {Process, Thread, Coroutine} that could exist.  For example there could be many processes, processes can spawn child processes, and there can be many instances of coroutines.  Only stacks are shown but of course other local data such as the program counter for each executable instance would need to exist.  Additionally different computing environments have different setups; e.g. a particular programming language implementation may manage threads instead of the OS (known as "green" threads).  Always read the docs (and blogs, tutorials, etc) related to your particular environment.
 
